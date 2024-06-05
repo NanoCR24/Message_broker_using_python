@@ -22,7 +22,7 @@ Sigua los siguientes pasos para configurar el entorno virtual y las dependencias
     
 3. Active el entorno virtual:
      ```sh
-     source env/bin/activate
+     source myenv/bin/activate
 4. Actualice el gestor de paquetes pip e instala las dependencias necesarias:
     ```sh
     sudo apt update
@@ -52,7 +52,7 @@ En cada terminal para ejecutar clientes se procede a hacer lo siguiente:
      
 2. Active el entorno virtual:
      ```sh
-     source env/bin/activate
+     source myenv/bin/activate
      
 3. Ejecute el cliente:
    ```sh

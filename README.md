@@ -44,7 +44,7 @@ Sigua los siguientes pasos para configurar el entorno virtual y las dependencias
    
 ## Ejecutar el cliente
 
-En cada terminal para ejecutar clientes se procede a hacer lo siguiente:
+En cada terminal para ejecutar el cliente se procede a hacer lo siguiente:
 
 1. Navegue al directorio del proyecto
      ```sh

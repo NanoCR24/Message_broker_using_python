@@ -1,0 +1,41 @@
+syntax = "proto3";
+
+package message_broker;
+
+// Mensaje para la solicitud de publicación
+message PublishRequest {
+    string topic = 1;
+    string message = 2;
+}
+
+// Mensaje para la respuesta de publicación
+message PublishResponse {
+    bool success = 1;
+}
+
+// Mensaje para la solicitud de suscripción
+message SubscribeRequest {
+    string topic = 1;
+}
+
+// Mensaje para el envío de mensajes
+message Message {
+    string topic = 1;
+    string message = 2;
+    string sender = 3;
+}
+
+// Mensaje vacío
+message Empty {}
+
+// Mensaje para la respuesta de los temas
+message TopicsResponse {
+    repeated string topics = 1;
+}
+
+// Servicio del Broker de Mensajes
+service MessageBroker {
+    rpc Publish(PublishRequest) returns (PublishResponse);
+    rpc Subscribe(SubscribeRequest) returns (stream Message);
+    rpc GetTopics(Empty) returns (TopicsResponse); 
+}

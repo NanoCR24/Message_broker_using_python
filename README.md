@@ -14,8 +14,9 @@ Sigua los siguientes pasos para configurar el entorno virtual y las dependencias
 
 1. Clone el repositorio y navegue al directorio del proyecto:
    ```sh
-   cd Proyecto_2_SO
-   
+   git clone https://github.com/NanoCR24/Message_broker_using_python
+   cd Message_broker_using_python
+      
 2. Crea un entorno virtual:
     ```sh
     python3 -m venv myenv
@@ -48,7 +49,7 @@ En cada terminal para ejecutar el cliente se procede a hacer lo siguiente:
 
 1. Navegue al directorio del proyecto
      ```sh
-     cd Proyecto_2_SO
+     cd Message_broker_using_python
      
 2. Active el entorno virtual:
      ```sh

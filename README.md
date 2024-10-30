@@ -10,7 +10,7 @@ Asegúrese de tener instalado lo siguiente en tu sistema:
 
 ## Configuración del entorno
 
-Sigua los siguientes pasos para configurar el entorno virtual y las dependencias necesarias:
+Siga los siguientes pasos para configurar el entorno virtual y las dependencias necesarias:
 
 1. Clone el repositorio y navegue al directorio del proyecto:
    ```sh
